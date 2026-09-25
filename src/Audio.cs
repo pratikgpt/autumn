@@ -194,7 +194,7 @@ namespace Autumn
     // Steady hiss of rainfall plus individual drop ticks scattered across the stereo field.
     class RainNoise : Ambient
     {
-        float hl, hr, ll, lr, pl, pr;
+        float hl, hr, ll, lr;
         public RainNoise() { Name = "rain"; }
         public override void Render(float[] L, float[] R, int n, float level)
         {
@@ -218,7 +218,6 @@ namespace Autumn
                     }
                 }
             }
-            pl = pr = 0;
         }
     }
 

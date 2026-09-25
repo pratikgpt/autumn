@@ -10,7 +10,7 @@ namespace Autumn
     {
         public WeatherKind Kind = WeatherKind.Breezy;
         public int Override = -1;
-        public float Precip, Wind, Gustiness = 0.5f, Storminess, Fog;
+        public float Precip, Wind, Gustiness = 0.5f, Storminess;
         public float WindDir = 1;
         public float SpellLeft = 360;
         public float SinceRain = 9999;          // seconds since precipitation last stopped

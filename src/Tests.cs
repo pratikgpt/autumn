@@ -158,7 +158,6 @@ namespace Autumn
             {
                 g.Clear(Color.FromArgb(236, 234, 228));
                 using (var dark = new SolidBrush(Color.FromArgb(52, 58, 72))) g.FillRectangle(dark, 0, 280, 1200, 280);
-                float x = 40;
                 using (var layer = RawLayer(1200, 560, s =>
                 {
                     for (int sp = 0; sp < 3; sp++)
