@@ -12,17 +12,21 @@ offline. It never reads what's on your screen, only where your windows are.
 
 *Offscreen renders of the real code. The grey boxes stand in for windows.*
 
-## Build and run
+## Download and run
 
-You need Windows 10 or 11 and nothing else. The build uses the C# compiler that ships inside
-Windows. In the repo folder, run:
+**[Download Autumn.exe](https://github.com/pratikgpt/autumn/releases/latest/download/Autumn.exe)**
+from the [latest release](https://github.com/pratikgpt/autumn/releases/latest) and run it. You
+need Windows 10 or 11 and nothing else. The leaves start falling right away, and the menu is the
+maple leaf in the notification area.
+
+The exe isn't code-signed, so SmartScreen may say "Windows protected your PC". Click **More info**,
+then **Run anyway**.
+
+Or build it yourself with the C# compiler that ships inside Windows. In the repo folder, run:
 
 ```
 powershell -ExecutionPolicy Bypass -File build.ps1
 ```
-
-That makes `Autumn.exe`. Run it and the leaves start falling. Its menu is the maple leaf in the
-notification area.
 
 ## The year
 
